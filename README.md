@@ -45,6 +45,16 @@
 
 ---
 
+## 🙏 一个项目的前身
+
+如果不是 [Vincent轩](https://gitee.com/codevicent) 的 [EasyDesktop](https://gitee.com/codevicent/easy-desktop)，就不会有这个工具。
+
+他用 C++ 写了一个轻量的桌面增强器：隐藏图标、快速呼出文件面板、毛玻璃主题、零配置上手——这件事本身就帅。我做的只是在外面加了一层"插拔显示器自动开关它"的壳。
+
+内核是他的，自动化是我的。感谢 Vincent 的开源。
+
+---
+
 ## 🚀 怎么用
 
 ### 1. 下载
