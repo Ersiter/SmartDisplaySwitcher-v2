@@ -1,0 +1,35 @@
+﻿{
+    "diagnostics":  {
+                        "enableFallback":  true,
+                        "maxValidSize":  100,
+                        "logLevel":  "INFO"
+                    },
+    "version":  "2.0",
+    "monitoring":  {
+                       "idleThreshold":  300,
+                       "checkInterval":  10
+                   },
+    "primaryMonitor":  {
+                           "dualScreenPrimary":  "largest",
+                           "minPhysicalWidth":  24
+                       },
+    "display":  {
+                    "showNotifications":  true,
+                    "startMinimized":  false,
+                    "language":  "zh-CN"
+                },
+    "apps":  [
+                 {
+                     "path":  "D:/EasyDesktop/easyDesktop.exe",
+                     "arguments":  "",
+                     "name":  "EasyDesktop",
+                     "enabled":  true
+                 }
+             ],
+    "wallpaper":  {
+                      "laptopMode":  "",
+                      "dualMode":  "",
+                      "desktopMode":  "",
+                      "enabled":  false
+                  }
+}

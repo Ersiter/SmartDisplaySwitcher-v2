@@ -1,0 +1,21 @@
+# Backup files
+backup/
+
+# Logs
+*.log
+
+# Temp / junk
+*.tmp
+*_temp*
+check_syntax.ps1
+fix_*.ps1
+verify_*.ps1
+test_*.ps1
+
+# IDE
+.vscode/
+.idea/
+
+# System
+Thumbs.db
+Desktop.ini

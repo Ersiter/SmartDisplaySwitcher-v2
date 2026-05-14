@@ -1,0 +1,111 @@
+{
+  "app": {
+    "name": "Smart Display Switcher",
+    "version": "2.0 Enhanced",
+    "description": "Automatically detect monitors and switch desktop layout"
+  },
+  "menu": {
+    "title": "Smart Display Switcher",
+    "subtitle": "Automated Desktop Environment Optimizer",
+    "separator": "═══════════════════════════════════════",
+    "options": {
+      "runDetection": "Run Detection Now",
+      "forceLaptop": "Force Laptop Mode",
+      "forceDesktop": "Force Desktop Mode",
+      "editConfig": "Edit Configuration",
+      "viewLog": "View Log",
+      "settings": "Settings",
+      "exit": "Exit"
+    },
+    "prompt": "Choose [1-7]: "
+  },
+  "status": {
+    "title": "Current Status",
+    "monitorSize": "Monitor Size: {0} inches",
+    "monitorCount": "Monitor Count: {0}",
+    "mode": "Current Mode: {0}",
+    "appStatus": "{0}: {1}",
+    "modes": {
+      "laptop": "Laptop Mode",
+      "desktop": "Desktop Mode",
+      "dual": "Dual Screen Mode"
+    },
+    "appStates": {
+      "running": "Running (PID: {0})",
+      "stopped": "Stopped",
+      "notConfigured": "Not Configured",
+      "invalidPath": "Invalid Path"
+    }
+  },
+  "action": {
+    "detecting": "Detecting monitors...",
+    "detected": "Detection complete",
+    "switchingMode": "Switching to {0}...",
+    "switchedMode": "Switched to {0}",
+    "hidingIcons": "Hiding desktop icons...",
+    "showingIcons": "Showing desktop icons...",
+    "iconsHidden": "Desktop icons hidden",
+    "iconsShown": "Desktop icons shown",
+    "startingApp": "Starting {0}...",
+    "stoppingApp": "Stopping {0}...",
+    "appStarted": "{0} started successfully",
+    "appStopped": "{0} stopped",
+    "appAlreadyRunning": "{0} already running",
+    "appNotRunning": "{0} not running"
+  },
+  "config": {
+    "title": "Configuration",
+    "minWidth": "Laptop/Desktop threshold (inches): {0}",
+    "checkInterval": "Check interval (seconds): {0}",
+    "easyDesktopPath": "EasyDesktop path: {0}",
+    "language": "Interface language: {0}",
+    "saved": "Configuration saved",
+    "error": "Failed to save configuration: {0}",
+    "invalidPath": "Invalid path: {0}"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Change Language",
+    "logLevel": "Log Level",
+    "autoStart": "Start with Windows",
+    "back": "Back to Main Menu"
+  },
+  "log": {
+    "noLog": "No log available",
+    "openFailed": "Failed to open log"
+  },
+  "install": {
+    "title": "Install Smart Display Switcher",
+    "success": "✓ Installed successfully! The program will start automatically on boot",
+    "failed": "✗ Installation failed, please check permissions",
+    "alreadyInstalled": "Already installed. Reinstall?"
+  },
+  "uninstall": {
+    "title": "Uninstall Smart Display Switcher",
+    "success": "✓ Uninstalled successfully! Removed from startup",
+    "failed": "Uninstall complete or task not found"
+  },
+  "error": {
+    "configLoad": "Failed to load configuration: {0}",
+    "configSave": "Failed to save configuration: {0}",
+    "processStart": "Failed to start process: {0}",
+    "processStop": "Failed to stop process: {0}",
+    "pathInvalid": "Invalid path: {0}",
+    "permissionDenied": "Insufficient permissions, please run as administrator",
+    "unknown": "Unknown error: {0}"
+  },
+  "notification": {
+    "modeChanged": "Switched to {0}",
+    "appStarted": "{0} started",
+    "appStopped": "{0} stopped",
+    "configSaved": "Configuration saved"
+  },
+  "buttons": {
+    "ok": "OK",
+    "cancel": "Cancel",
+    "apply": "Apply",
+    "browse": "Browse...",
+    "yes": "Yes",
+    "no": "No"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "app": {
+    "name": "智能显示器切换助手",
+    "version": "2.0 Enhanced",
+    "description": "自动检测显示器并切换桌面布局"
+  },
+  "menu": {
+    "title": "智能显示器切换助手",
+    "subtitle": "自动化桌面环境优化工具",
+    "separator": "═══════════════════════════════════════",
+    "options": {
+      "runDetection": "立即运行检测",
+      "forceLaptop": "强制笔记本模式",
+      "forceDesktop": "强制桌面模式",
+      "editConfig": "编辑配置文件",
+      "viewLog": "查看日志",
+      "settings": "设置",
+      "exit": "退出"
+    },
+    "prompt": "请选择 [1-7]: "
+  },
+  "status": {
+    "title": "当前状态",
+    "monitorSize": "显示器尺寸: {0} 英寸",
+    "monitorCount": "显示器数量: {0}",
+    "mode": "当前模式: {0}",
+    "appStatus": "{0}: {1}",
+    "modes": {
+      "laptop": "笔记本模式",
+      "desktop": "桌面模式",
+      "dual": "双屏模式"
+    },
+    "appStates": {
+      "running": "运行中 (PID: {0})",
+      "stopped": "已停止",
+      "notConfigured": "未配置",
+      "invalidPath": "路径无效"
+    }
+  },
+  "action": {
+    "detecting": "正在检测显示器...",
+    "detected": "检测完成",
+    "switchingMode": "正在切换到 {0}...",
+    "switchedMode": "已切换到 {0}",
+    "hidingIcons": "正在隐藏桌面图标...",
+    "showingIcons": "正在显示桌面图标...",
+    "iconsHidden": "桌面图标已隐藏",
+    "iconsShown": "桌面图标已显示",
+    "startingApp": "正在启动 {0}...",
+    "stoppingApp": "正在停止 {0}...",
+    "appStarted": "{0} 启动成功",
+    "appStopped": "{0} 已停止",
+    "appAlreadyRunning": "{0} 已在运行",
+    "appNotRunning": "{0} 未运行"
+  },
+  "config": {
+    "title": "配置设置",
+    "minWidth": "笔记本/桌面分界尺寸 (英寸): {0}",
+    "checkInterval": "检测间隔 (秒): {0}",
+    "easyDesktopPath": "EasyDesktop 路径: {0}",
+    "language": "界面语言: {0}",
+    "saved": "配置已保存",
+    "error": "保存配置失败: {0}",
+    "invalidPath": "无效的路径: {0}"
+  },
+  "settings": {
+    "title": "设置",
+    "language": "切换语言",
+    "logLevel": "日志级别",
+    "autoStart": "开机自启",
+    "back": "返回主菜单"
+  },
+  "log": {
+    "noLog": "暂无日志",
+    "openFailed": "打开日志失败"
+  },
+  "install": {
+    "title": "安装 Smart Display Switcher",
+    "success": "✓ 安装成功！程序将在开机时自动启动",
+    "failed": "✗ 安装失败，请检查权限",
+    "alreadyInstalled": "已安装，是否重新安装？"
+  },
+  "uninstall": {
+    "title": "卸载 Smart Display Switcher",
+    "success": "✓ 卸载成功！已从开机启动中移除",
+    "failed": "卸载完成或任务不存在"
+  },
+  "error": {
+    "configLoad": "加载配置失败: {0}",
+    "configSave": "保存配置失败: {0}",
+    "processStart": "启动进程失败: {0}",
+    "processStop": "停止进程失败: {0}",
+    "pathInvalid": "路径无效: {0}",
+    "permissionDenied": "权限不足，请以管理员身份运行",
+    "unknown": "未知错误: {0}"
+  },
+  "notification": {
+    "modeChanged": "已切换到 {0}",
+    "appStarted": "{0} 已启动",
+    "appStopped": "{0} 已停止",
+    "configSaved": "配置已保存"
+  },
+  "buttons": {
+    "ok": "确定",
+    "cancel": "取消",
+    "apply": "应用",
+    "browse": "浏览...",
+    "yes": "是",
+    "no": "否"
+  }
+}
