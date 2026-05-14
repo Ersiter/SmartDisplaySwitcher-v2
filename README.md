@@ -45,13 +45,13 @@
 
 ---
 
-## 🙏 一个项目的前身
+## 🙏 源于一个更好的工具
 
-如果不是 [Vincent轩](https://gitee.com/codevicent) 的 [EasyDesktop](https://gitee.com/codevicent/easy-desktop)，就不会有这个工具。
+这是 [Vicent轩](https://gitee.com/codevicent) 的开源项目 [EasyDesktop](https://gitee.com/codevicent/easy-desktop) 的延伸。
 
-他用 C++ 写了一个轻量的桌面增强器：隐藏图标、快速呼出文件面板、毛玻璃主题、零配置上手——这件事本身就帅。我做的只是在外面加了一层"插拔显示器自动开关它"的壳。
+他用 Python + JS 写了一个漂亮的桌面增强器：隐藏图标、快速呼出文件面板、毛玻璃主题、零配置开箱即用。我做的是给它加了一层"插拔屏幕自动开关它"的壳——内核是他的，自动化是我的。
 
-内核是他的，自动化是我的。感谢 Vincent 的开源。
+感谢 Vicent 的开源。
 
 ---
 
@@ -205,3 +205,9 @@ SmartDisplaySwitcher-v2/
 ├── Start-Switcher.bat        # Launcher
 └── config.json               # User config
 ```
+
+### Credits
+
+This project extends [EasyDesktop](https://gitee.com/codevicent/easy-desktop) by [Vicent轩](https://gitee.com/codevicent).
+
+EasyDesktop is a polished desktop enhancer — hide icons, quick file panel, frosted glass themes, zero-config setup — built with Python and JavaScript. Smart Display Switcher wraps it with an auto-switch layer: plug in a monitor, ED starts. Unplug, ED stops. Vicent's kernel, my automation.
